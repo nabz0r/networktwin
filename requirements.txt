@@ -1,32 +1,8 @@
-# Backend Dependencies
-
-# Machine Learning
-torch==2.1.0
-scikit-learn==1.3.2
-numpy==1.26.2
-pandas==2.1.3
-
-# Network and Communication
+torch==2.1.2
+numpy==1.24.3
+dataclasses==0.8
+typing-extensions==4.8.0
 paho-mqtt==1.6.1
-websockets==12.0
-
-# Scientific Computing
-scipy==1.11.4
-
-# Development and Testing
 pytest==7.4.3
-black==23.11.0
-flake8==6.1.0
-
-# Data Processing
-numpy==1.26.2
-pandas==2.1.3
-
-# Optimization
-scipy==1.11.4
-
-# Networking
-scapy==2.5.0
-
-# Visualization
-plotly==5.18.0
+fastapi==0.104.1
+uvicorn==0.23.2
