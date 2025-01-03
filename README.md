@@ -1,24 +1,37 @@
-# NetworkTwin: Digital Twin Network Optimization Platform
+# 🛰️ NetworkTwin - Plateforme de Jumeaux Numériques Réseau
 
-## 🚀 Project Overview
+## 🛠 État du Développement
 
-NetworkTwin is an advanced digital twin platform designed to revolutionize network infrastructure optimization, resource allocation, and performance prediction across diverse network scenarios.
+### Phase Actuelle
+- [x] Modèle de base du Jumeau Numérique
+- [ ] Simulation de réseau
+- [ ] Interface utilisateur
+- [ ] Intégration MQTT
 
-### 📜 Copyright
-- **Author**: nabz0r
-- **Contact**: nabz0r@gmail.com
-- **License**: [To be defined - Proprietary]
+### Derniers Développements
+- Création du modèle `DigitalTwin`
+- Support des configurations de slice réseau
+- Mécanisme de recommandation d'optimisation
 
-## 🎯 Project Mission
+## 🎯 Vision du Projet
 
-Develop a comprehensive digital twin solution that enables:
-- Real-time network infrastructure modeling
-- Predictive performance analysis
-- Dynamic resource allocation optimization
-- Multi-scenario network simulation
+NetworkTwin est une plateforme innovante de simulation et d'optimisation de réseaux, utilisant des technologies de jumeaux numériques avancées.
 
-## 🧠 Core Research Foundations
+## 🚀 Fonctionnalités Clés
 
-The project is inspired by cutting-edge research in digital twin technologies:
-1. TwiNet: Connecting Real World Networks to Digital Twins (IEEE GLOBECOM 2024)
-2. Digital Twin-Assisted Resource Slicing in LEO Satellite Networks
+- Modélisation dynamique de réseaux
+- Prédiction d'allocation de ressources
+- Recommandations d'optimisation automatiques
+- Support multi-type de réseaux (LEO, 5G, etc.)
+
+## 📦 Dépendances Principales
+
+- PyTorch
+- NumPy
+- MQTT
+- FastAPI
+
+## 🤝 Contribution
+
+Les contributions sont les bienvenues ! 
+Contactez : nabz0r@gmail.com
