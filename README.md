@@ -2,35 +2,31 @@
 
 ## 🚀 État du Développement
 
-### Intégration GNS3
-- [x] Connecteur API
-- [x] Gestion de Projets
-- [x] Simulation de Topologies
-- [ ] Visualisation Avancée
+### Interface de Topologie Réseau
+- [x] Constructeur de Topologie
+- [x] Visualisation Mermaid
+- [x] Export JSON
+- [ ] Intégration GNS3
 
-## 🌐 Types de Réseaux Supportés
-- Constellation LEO
-- Réseaux satellitaires
-- Topologies réseau complexes
-- Équipements réels (Cisco, etc.)
+## 🌐 Fonctionnalités
 
-## 🛠 Fonctionnalités
+### Conception de Réseau
+- Génération dynamique
+- Types de nœuds multiples
+- Export de configurations
 
-### Simulation Réseau
-- Création dynamique de projets
-- Ajout de routeurs, switchs
-- Gestion de firewalls
-- Configuration de topologies
+### Types de Nœuds
+- Routeurs
+- Switchs
+- Firewalls
+- Serveurs
+- Cloud
 
-### Monitoring
-- Récupération des informations
-- Démarrage/arrêt de simulations
-
-## 🛣 Technologies
-- Python
+## 🛠 Technologies
+- React
+- Mermaid
+- Material-UI
 - GNS3 API
-- Connecteurs réseau
-- Simulation étendues
 
 ## 🚀 Roadmap
 1. ✅ Modèle de Base
@@ -38,8 +34,8 @@
 3. ✅ Simulation Réseau
 4. ✅ Visualisations
 5. ✅ Intégration GNS3
-6. 🔲 Monitoring Avancé
-7. 🔲 Scénarios Complexes
+6. ✅ Interface Topologie
+7. 🔲 Validation Avancée
 
 ## 🤝 Contribution
 Contacts et contributions bienvenus !
