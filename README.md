@@ -4,42 +4,54 @@
 
 ### Architecture
 - [x] Backend Python (Modèle de Jumeau Numérique)
-- [x] Frontend React 
+- [x] Frontend React
 - [x] Service de Simulation Réseau
-- [ ] Intégration complète MQTT
-- [ ] Tests unitaires
+- [x] Intégration WebSocket Temps Réel
+- [ ] Tests Complets
+- [ ] Déploiement
 
-## 🌐 Architecture du Projet
+## 📊 Composants Développés
 
 ### Backend
-- Modélisation de jumeaux numériques
-- Algorithmes de prédiction réseau
-- Support multi-type de réseaux (LEO, 5G)
+- Classe `DigitalTwin`
+- Configuration flexible de slices réseau
+- Modèle prédictif neuronal
+- Méthodes d'évaluation de performance
 
 ### Frontend
-- Visualisation dynamique de topologie
-- Interaction temps réel
-- Simulation de ressources réseau
+- Tableau de Bord Principal
+- Résumé des Statistiques Réseau
+- Graphiques de Performance
+- Service WebSocket
+- Hook de Mises à Jour Réseau
 
 ## 🛠 Technologies Principales
 
 ### Backend
-- Python
+- Python 3.10+
 - PyTorch
 - NumPy
 - FastAPI
 
 ### Frontend
 - React.js
-- D3.js
-- MQTT
 - Socket.IO
+- Recharts
+- Material-UI
 
 ### Communication
 - Protocole MQTT
 - WebSockets
 
-## 🔧 Installation
+## 🌐 Fonctionnalités Clés
+
+- Simulation de réseau dynamique
+- Modélisation de jumeaux numériques
+- Prédiction d'allocation de ressources
+- Visualisation temps réel
+- Recommandations d'optimisation automatiques
+
+## 📦 Installation
 
 ### Prérequis
 - Python 3.10+
@@ -60,11 +72,25 @@ npm install
 npm start
 ```
 
+## 🔜 Roadmap
+
+1. ✅ Modèle de Base du Jumeau Numérique
+2. ✅ Frontend Initial
+3. ✅ Simulation Réseau
+4. ✅ Intégration WebSocket
+5. 🔲 Tests Complets
+6. 🔲 Optimisation des Performances
+7. 🔲 Déploiement
+
 ## 🤝 Contribution
 
-Contributions bienvenues ! 
+Contributions bienvenues !
 - Ouvrez des issues
 - Proposez des PRs
 - Partagez vos idées
 
 📧 Contact: nabz0r@gmail.com
+
+## 📄 Licence
+
+MIT License
