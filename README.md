@@ -1,37 +1,70 @@
 # 🛰️ NetworkTwin - Plateforme de Jumeaux Numériques Réseau
 
-## 🛠 État du Développement
+## 🚀 État du Développement
 
-### Phase Actuelle
-- [x] Modèle de base du Jumeau Numérique
-- [ ] Simulation de réseau
-- [ ] Interface utilisateur
-- [ ] Intégration MQTT
+### Architecture
+- [x] Backend Python (Modèle de Jumeau Numérique)
+- [x] Frontend React 
+- [x] Service de Simulation Réseau
+- [ ] Intégration complète MQTT
+- [ ] Tests unitaires
 
-### Derniers Développements
-- Création du modèle `DigitalTwin`
-- Support des configurations de slice réseau
-- Mécanisme de recommandation d'optimisation
+## 🌐 Architecture du Projet
 
-## 🎯 Vision du Projet
+### Backend
+- Modélisation de jumeaux numériques
+- Algorithmes de prédiction réseau
+- Support multi-type de réseaux (LEO, 5G)
 
-NetworkTwin est une plateforme innovante de simulation et d'optimisation de réseaux, utilisant des technologies de jumeaux numériques avancées.
+### Frontend
+- Visualisation dynamique de topologie
+- Interaction temps réel
+- Simulation de ressources réseau
 
-## 🚀 Fonctionnalités Clés
+## 🛠 Technologies Principales
 
-- Modélisation dynamique de réseaux
-- Prédiction d'allocation de ressources
-- Recommandations d'optimisation automatiques
-- Support multi-type de réseaux (LEO, 5G, etc.)
-
-## 📦 Dépendances Principales
-
+### Backend
+- Python
 - PyTorch
 - NumPy
-- MQTT
 - FastAPI
+
+### Frontend
+- React.js
+- D3.js
+- MQTT
+- Socket.IO
+
+### Communication
+- Protocole MQTT
+- WebSockets
+
+## 🔧 Installation
+
+### Prérequis
+- Python 3.10+
+- Node.js 18+
+- Mosquitto MQTT Broker
+
+### Installation Rapide
+
+```bash
+# Backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+# Frontend
+cd frontend
+npm install
+npm start
+```
 
 ## 🤝 Contribution
 
-Les contributions sont les bienvenues ! 
-Contactez : nabz0r@gmail.com
+Contributions bienvenues ! 
+- Ouvrez des issues
+- Proposez des PRs
+- Partagez vos idées
+
+📧 Contact: nabz0r@gmail.com
