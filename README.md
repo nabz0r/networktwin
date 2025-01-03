@@ -2,31 +2,29 @@
 
 ## 🚀 État du Développement
 
-### Interface de Topologie Réseau
-- [x] Constructeur de Topologie
-- [x] Visualisation Mermaid
-- [x] Export JSON
-- [ ] Intégration GNS3
+### Intégration Centralisée
+- [x] Orchestrateur de Simulation
+- [x] API Unifiée
+- [x] Communication WebSocket
+- [x] Configuration Dynamique
 
-## 🌐 Fonctionnalités
+## 🌐 Types de Réseaux
+- Satellites LEO
+- Réseaux d'Entreprise
+- Datacenter
+- Topologies GNS3
 
-### Conception de Réseau
-- Génération dynamique
-- Types de nœuds multiples
-- Export de configurations
+## 🛠 Fonctionnalités
+- Simulation multi-type
+- Configuration dynamique
+- WebSocket temps réel
+- Orchestration centralisée
 
-### Types de Nœuds
-- Routeurs
-- Switchs
-- Firewalls
-- Serveurs
-- Cloud
-
-## 🛠 Technologies
-- React
-- Mermaid
-- Material-UI
-- GNS3 API
+## 💻 Technologies Clés
+- Python
+- FastAPI
+- WebSocket
+- Configuration YAML
 
 ## 🚀 Roadmap
 1. ✅ Modèle de Base
@@ -35,7 +33,8 @@
 4. ✅ Visualisations
 5. ✅ Intégration GNS3
 6. ✅ Interface Topologie
-7. 🔲 Validation Avancée
+7. ✅ Intégration Centralisée
+8. 🔲 Tests et Optimisation
 
 ## 🤝 Contribution
 Contacts et contributions bienvenus !
