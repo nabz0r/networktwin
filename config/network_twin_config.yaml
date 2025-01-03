@@ -1,0 +1,22 @@
+# Configuration Globale NetworkTwin
+
+# Configuration de la simulation
+simulation:
+  default_network_type: leo
+  update_interval: 10  # Secondes
+
+# Paramètres GNS3
+gns3:
+  host: localhost
+  port: 3080
+  default_project: NetworkTwin
+
+# Configuration des prédictions
+prediction:
+  model_type: bayesian
+  confidence_level: 0.95
+
+# Logging
+logging:
+  level: INFO
+  file: /var/log/networktwin/simulation.log
