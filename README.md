@@ -72,15 +72,15 @@ npm install
 npm start
 ```
 
-## 🔜 Roadmap
+## 🛑 Roadmap
 
 1. ✅ Modèle de Base du Jumeau Numérique
 2. ✅ Frontend Initial
 3. ✅ Simulation Réseau
 4. ✅ Intégration WebSocket
-5. 🔲 Tests Complets
-6. 🔲 Optimisation des Performances
-7. 🔲 Déploiement
+5. 🔶 Tests Complets
+6. 🔶 Optimisation des Performances
+7. 🔶 Déploiement
 
 ## 🤝 Contribution
 
@@ -91,6 +91,6 @@ Contributions bienvenues !
 
 📧 Contact: nabz0r@gmail.com
 
-## 📄 Licence
+## 📜 Licence
 
 MIT License
