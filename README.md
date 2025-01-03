@@ -1,42 +1,50 @@
 # 🛰️ NetworkTwin - Plateforme de Jumeaux Numériques Réseau
 
-## 🚀 État du Développement
+## 🚀 Présentation
 
-### Intégration Centralisée
-- [x] Orchestrateur de Simulation
-- [x] API Unifiée
-- [x] Communication WebSocket
-- [x] Configuration Dynamique
+NetworkTwin est une plateforme innovante de simulation et modélisation réseau, permettant de créer, tester et optimiser des topologies réseau complexes.
 
-## 🌐 Types de Réseaux
-- Satellites LEO
-- Réseaux d'Entreprise
-- Datacenter
+## 🌐 Fonctionnalités Principales
+
+### Simulation Multi-Réseaux
+- Réseaux satellitaires LEO
 - Topologies GNS3
+- Réseaux d'entreprise
+- Datacenters
 
-## 🛠 Fonctionnalités
-- Simulation multi-type
-- Configuration dynamique
-- WebSocket temps réel
-- Orchestration centralisée
-
-## 💻 Technologies Clés
+### Technologies Clés
 - Python
 - FastAPI
+- React.js
 - WebSocket
-- Configuration YAML
+- GNS3
 
-## 🚀 Roadmap
-1. ✅ Modèle de Base
-2. ✅ Frontend Initial
-3. ✅ Simulation Réseau
-4. ✅ Visualisations
-5. ✅ Intégration GNS3
-6. ✅ Interface Topologie
-7. ✅ Intégration Centralisée
-8. 🔲 Tests et Optimisation
+## 🛠 Caractéristiques
+- Simulation dynamique
+- Visualisation en temps réel
+- Prédiction de performances
+- Configuration flexible
+
+## 🚀 Installation Rapide
+
+### Backend
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+```
 
 ## 🤝 Contribution
-Contacts et contributions bienvenus !
+Contributions et suggestions bienvenues !
 
-📧 nabz0r@gmail.com
+## 📜 Licence
+MIT License
+
+## 📧 Contact
+nabz0r@gmail.com
