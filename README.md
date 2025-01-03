@@ -2,95 +2,49 @@
 
 ## 🚀 État du Développement
 
-### Architecture
-- [x] Backend Python (Modèle de Jumeau Numérique)
-- [x] Frontend React
-- [x] Service de Simulation Réseau
-- [x] Intégration WebSocket Temps Réel
-- [ ] Tests Complets
-- [ ] Déploiement
+### Visualisations Interactives
+- [x] Constellation LEO 3D
+- [x] Graphiques de Performance
+- [x] Moniteur de Santé des Satellites
+- [x] Tableau de Bord Dynamique
 
-## 📊 Composants Développés
+## 🌐 Fonctionnalités de Visualisation
 
-### Backend
-- Classe `DigitalTwin`
-- Configuration flexible de slices réseau
-- Modèle prédictif neuronal
-- Méthodes d'évaluation de performance
+### Constellation 3D
+- Représentation spatiale des satellites
+- Couleurs basées sur la fiabilité
+- Taille proportionnelle à la bande passante
 
-### Frontend
-- Tableau de Bord Principal
-- Résumé des Statistiques Réseau
-- Graphiques de Performance
-- Service WebSocket
-- Hook de Mises à Jour Réseau
+### Métriques de Performance
+- Bande passante en temps réel
+- Latence
+- Indicateurs de fiabilité
 
-## 🛠 Technologies Principales
+### Santé des Satellites
+- Moniteur d'état
+- Alerte visuelle
+- Suivi dynamique
 
-### Backend
-- Python 3.10+
-- PyTorch
-- NumPy
-- FastAPI
-
-### Frontend
+## 🛠 Technologies
 - React.js
-- Socket.IO
+- Three.js
 - Recharts
-- Material-UI
+- react-force-graph
 
-### Communication
-- Protocole MQTT
-- WebSockets
+## 🔭 Types de Réseaux Supportés
+- Constellation LEO
+- Réseaux satellitaires
+- Simulation de topologies complexes
 
-## 🌐 Fonctionnalités Clés
-
-- Simulation de réseau dynamique
-- Modélisation de jumeaux numériques
-- Prédiction d'allocation de ressources
-- Visualisation temps réel
-- Recommandations d'optimisation automatiques
-
-## 📦 Installation
-
-### Prérequis
-- Python 3.10+
-- Node.js 18+
-- Mosquitto MQTT Broker
-
-### Installation Rapide
-
-```bash
-# Backend
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
-# Frontend
-cd frontend
-npm install
-npm start
-```
-
-## 🛑 Roadmap
-
-1. ✅ Modèle de Base du Jumeau Numérique
+## 🚀 Roadmap
+1. ✅ Modèle de Base
 2. ✅ Frontend Initial
 3. ✅ Simulation Réseau
-4. ✅ Intégration WebSocket
-5. 🔶 Tests Complets
-6. 🔶 Optimisation des Performances
-7. 🔶 Déploiement
+4. ✅ Visualisations Interactives
+5. 🔲 Optimisation
+6. 🔲 Support Multi-Réseaux
 
 ## 🤝 Contribution
+Contacts et contributions bienvenus !
 
-Contributions bienvenues !
-- Ouvrez des issues
-- Proposez des PRs
-- Partagez vos idées
-
-📧 Contact: nabz0r@gmail.com
-
-## 📜 Licence
-
-MIT License
+📧 nabz0r@gmail.com
