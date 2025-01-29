@@ -4,6 +4,8 @@
 
 NetworkTwin is a cutting-edge network simulation and digital twin platform designed to revolutionize network infrastructure modeling, testing, and optimization.
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-nabz0r-yellow?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/nabz0r)
+
 ## 🚀 Key Features
 
 ### 🌍 Multi-Domain Simulation
